@@ -18,3 +18,11 @@
   height: 10vh;
   background-color: black;
 }
+
+.eh-under {
+  z-index: 1;
+}
+
+.eh-over {
+  z-index: 2;
+}
