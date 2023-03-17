@@ -12,16 +12,16 @@ function NavComponent() {
       <div className="collaps navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item mx-3">
-            <a className="nav-link" href="/#"><FontAwesomeIcon icon={faHouse}/></a>
+            <a className="nav-link" href="/"><FontAwesomeIcon icon={faHouse}/></a>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/#">About</a>
+            <a className="nav-link" href="/about">About</a>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/#">Enrollment Info</a>
+            <a className="nav-link" href="/enrollment">Enrollment Info</a>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/#">Current Students</a>
+            <a className="nav-link" href="/current-students">Current Students</a>
           </li>
         </ul>
       </div>
