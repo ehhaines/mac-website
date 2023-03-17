@@ -1,4 +1,5 @@
 import React from "react";
+import FooterComponent from "../Footer";
 
 function HomeComponent() {
 
@@ -23,10 +24,17 @@ function HomeComponent() {
       }}>
         Mililani Aikido Club
       </div>
-      <div className="h-100 display-6">
-        <p className="my-3">Aloha, and welcome to the Mililani Aikido Club!</p>
-        <p>We are a close knit group of Aikido practitioners based in Mililani, HI. Please feel free to reach out if you have any questions. Otherwise, we appreciate your interest in our club!</p>
+      <div className="h-100 display-6 text-muted px-3" style={{
+        display: "flex",
+        justifyContent: "center",
+        alignContent: "center",
+        flexDirection: "column"
+      }}>
+        <p className="my-3 px-3">Aloha, and welcome to the Mililani Aikido Club!</p>
+        <br></br>
+        <p className="px-3">We are a close knit group of Aikido practitioners based in Mililani, HI. Please feel free to reach out if you have any questions. Otherwise, we appreciate your interest in our club!</p>
       </div>
+      <FooterComponent/>
     </div>
   );
 

@@ -6,15 +6,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router';
+
 import HomeComponent from './Home';
 import NavComponent from './Nav';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <NavComponent/>
-      <HomeComponent/>
-    </div>
+      <div className="App">
+        <Routes>
+          <Route path='/*' element={<HomeComponent/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
