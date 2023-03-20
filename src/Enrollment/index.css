@@ -1,0 +1,24 @@
+
+@media (max-width: 1199px) {
+  .eh-med-map {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px){
+  .eh-small-map {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .eh-small-map {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .eh-xsmall-map {
+    display: none !important;
+  }
+}

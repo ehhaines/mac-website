@@ -1,6 +1,8 @@
 import React from "react";
 import FooterComponent from "../Footer";
 
+import "./index.css";
+
 function HomeComponent() {
 
   return (
@@ -12,7 +14,7 @@ function HomeComponent() {
       height: "100vh",
       textAlign: "center"
     }}>
-      <div className="display-2 py-3" style={{
+      <div className="display-2 py-3 eh-title" style={{
         backgroundColor: "rgba(255, 255, 255, .15)",
         backdropFilter: "blur(4px)",
         height: "100vh",
