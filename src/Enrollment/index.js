@@ -12,7 +12,9 @@ const EnrollmentComponent = () => {
 
   return (
     <div className="bg-light">
-      <div className="container border-bottom text-secondary">
+      <div className="container border-bottom text-secondary" style={{
+        overflow: "auto"
+      }}>
         <div className="eh-xsmall-map eh-vertical-center" style={{
           height: "100vh",
           minHeight: "675px"
@@ -97,7 +99,8 @@ const EnrollmentComponent = () => {
       <div className="container eh-vertical-center border-bottom" style={{
         textAlign: "left",
         height: "100vh",
-        minHeight: "600px"
+        minHeight: "600px",
+        overflow: "auto"
       }}>
         <div className="display-3 text-secondary"><b>Fees and Donations</b></div>
         <br></br>
@@ -128,8 +131,9 @@ const EnrollmentComponent = () => {
 
       <div className="container eh-vertical-center text-secondary border-bottom" style={{
         textAlign: "left",
-        height: "100vh",
-        minHeight: "600px"
+        height: "fit-content",
+        minHeight: "675px",
+        overflow: "auto"
       }}>
         <div className="display-3"><b>First Class Checklist</b></div>
         <br></br>
@@ -153,7 +157,7 @@ const EnrollmentComponent = () => {
         backgroundColor: "#FA7878",
         height: "20vh"
       }}>
-        <b>Questions?</b> Email us at: mililaniaikido@gmail.com
+        <b>Still Got Questions?</b> Email us at: mililaniaikido@gmail.com
       </div>
       <FooterComponent/>
     </div>
