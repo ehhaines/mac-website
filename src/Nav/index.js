@@ -25,7 +25,7 @@ function NavComponent() {
             <a className="nav-link" href="/enrollment">Enrollment Info</a>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/current-students">Current Students</a>
+            <a className="nav-link" href="/resources">Resources</a>
           </li>
         </ul>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 import FooterComponent from "../Footer";
 
-const AboutComponent = () => {
+const ResourcesComponent = () => {
 
     return (
 
@@ -10,11 +10,11 @@ const AboutComponent = () => {
             <div style={{
                 paddingTop: "100px"
             }}>
-                About.
+                resources.
             </div>
             <FooterComponent/>
         </div>
     )
 }
 
-export default AboutComponent;
+export default ResourcesComponent;

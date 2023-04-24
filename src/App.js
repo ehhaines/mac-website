@@ -13,6 +13,7 @@ import HomeComponent from './Home';
 import EnrollmentComponent from './Enrollment';
 import NavComponent from './Nav';
 import AboutComponent from './About';
+import ResourcesComponent from './Resources';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/*' element={<HomeComponent/>}/>
           <Route path='/enrollment' element={<EnrollmentComponent/>}/>
           <Route path='/about' element={<AboutComponent/>}/>
+          <Route path='/resources' element={<ResourcesComponent/>}/>
         </Routes>
       </div>
     </BrowserRouter>
