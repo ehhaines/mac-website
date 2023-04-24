@@ -12,6 +12,7 @@ import { Routes, Route } from 'react-router';
 import HomeComponent from './Home';
 import EnrollmentComponent from './Enrollment';
 import NavComponent from './Nav';
+import AboutComponent from './About';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/*' element={<HomeComponent/>}/>
           <Route path='/enrollment' element={<EnrollmentComponent/>}/>
+          <Route path='/about' element={<AboutComponent/>}/>
         </Routes>
       </div>
     </BrowserRouter>
